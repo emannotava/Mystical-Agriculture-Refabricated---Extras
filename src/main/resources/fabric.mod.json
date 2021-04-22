@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "mysticalagriculture_extras",
+  "version": "${version}",
+
+  "name": "Mystical Agriculture: Refabricated - Extras",
+  "description": "Adds regular crafting recipes for seeds and maybe more in the future.",
+  "authors": [
+    "meme_man_not_ava"
+  ],
+  "contact": {
+    "homepage": "http://www.themostamazingwebsiteontheinternet.com/",
+    "sources": "https://github.com/emannotava/Mystical-Agriculture-Refabricated---Extras"
+  },
+
+  "license": "MIT",
+  "icon": "assets/mysticalagriculture_extras/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.mememan.mysticalagriculture_extras.Client"
+    ],
+    "main": [
+      "com.mememan.mysticalagriculture_extras.Main"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+  }
+}
